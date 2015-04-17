@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Problem10
 {
-    class Problem10
+    public class Problem10
     {
         static void Main()
         {
