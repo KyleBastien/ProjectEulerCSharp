@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 namespace Problem21
 {
-    class Problem21
+    public class Problem21
     {
         static void Main()
         {
