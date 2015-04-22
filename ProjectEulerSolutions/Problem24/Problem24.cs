@@ -28,6 +28,8 @@ namespace Problem24
             //
             // I haven't found a factorial function in the .NET API, :(, so I wrote one. See Factor. There is probably a better implementation than the one I wrote but we only need to use small factorials so it fits our
             // needs well.
+            //
+            // We break the loop once we reach zero remaining permutations. The last part of the algorithm appends the rest of the digits in case we break out of the main algorithm.
             
             int[] perm = new int[] {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
             int n = perm.Length;
